@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF6100F32791C30700A8686A /* ContentViewVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6100F22791C30700A8686A /* ContentViewVM.swift */; };
+		CF6100F52791C36F00A8686A /* Counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6100F42791C36F00A8686A /* Counter.swift */; };
 		CFD410412791C2410011FCF6 /* Test_SonarCloudApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD410402791C2410011FCF6 /* Test_SonarCloudApp.swift */; };
 		CFD410432791C2410011FCF6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD410422791C2410011FCF6 /* ContentView.swift */; };
 		CFD410452791C2430011FCF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFD410442791C2430011FCF6 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CF6100F22791C30700A8686A /* ContentViewVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewVM.swift; sourceTree = "<group>"; };
+		CF6100F42791C36F00A8686A /* Counter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Counter.swift; sourceTree = "<group>"; };
 		CFD4103D2791C2410011FCF6 /* Test SonarCloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Test SonarCloud.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFD410402791C2410011FCF6 /* Test_SonarCloudApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test_SonarCloudApp.swift; sourceTree = "<group>"; };
 		CFD410422791C2410011FCF6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +59,8 @@
 				CFD410422791C2410011FCF6 /* ContentView.swift */,
 				CFD410442791C2430011FCF6 /* Assets.xcassets */,
 				CFD410462791C2430011FCF6 /* Preview Content */,
+				CF6100F22791C30700A8686A /* ContentViewVM.swift */,
+				CF6100F42791C36F00A8686A /* Counter.swift */,
 			);
 			path = "Test SonarCloud";
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF6100F52791C36F00A8686A /* Counter.swift in Sources */,
+				CF6100F32791C30700A8686A /* ContentViewVM.swift in Sources */,
 				CFD410432791C2410011FCF6 /* ContentView.swift in Sources */,
 				CFD410412791C2410011FCF6 /* Test_SonarCloudApp.swift in Sources */,
 			);

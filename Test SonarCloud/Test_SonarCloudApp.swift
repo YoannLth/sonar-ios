@@ -11,7 +11,7 @@ import SwiftUI
 struct Test_SonarCloudApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(viewModel: ContentViewVM())
         }
     }
 }
